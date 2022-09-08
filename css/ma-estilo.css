@@ -49,9 +49,13 @@ header {
     width: auto;
     height: 500px;
     background-color: var(--principal-suave);
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
+    /* border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px; */
     margin-bottom: 50px;
+    clip-path: polygon(0% 0%,
+                   100% 0%,
+                   100% 82%,
+                    0% 100%);
 }
 
 /* atributos universales*/
@@ -166,12 +170,18 @@ p>a::after {
 /* footer */
 footer {
     text-align: center;
+    padding-top: 80px;
     color: var(--blanco);
     background-color: var(--principal-fuerte);
     height: 300px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    clip-path: polygon(0% 18%,
+    100% 0%,
+    100% 100%,
+     0% 100%);
 }
+
 
 footer a {
     font-size: 22px;
